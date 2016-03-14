@@ -5,6 +5,13 @@ spring:
       server:
         git:
           uri: https://github.com/claudioed/spring-cloud-config-files
+  application:
+    name: spring-cloud-server-labs
+
+logging:
+  levels:
+    org.springframework.boot.env.PropertySourcesLoader: TRACE
+    org.springframework.web: DEBUG
           
 server:
   port: 8001
