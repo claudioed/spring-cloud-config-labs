@@ -1,4 +1,4 @@
-# Spring Cloud Confif Sample
+# Spring Cloud Config Sample
 This repo is only for study and POC purposes.
 
 The main idea is Enable Spring Configuration Server and enable your respectives clients.
