@@ -19,7 +19,7 @@ public class GetConfigController {
         return "The Database hostname is: " + hostname;
     }
 
-    @RequestMapping("/database/hostname")
+    @RequestMapping("/database/port")
     public String showDatabasePort() {
         return "The Database port  is: " + port;
     }
